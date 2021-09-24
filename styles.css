@@ -1,0 +1,65 @@
+*{
+    font-family: "roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    outline:  0;
+}
+.header{
+    display: flex;
+    background-color: rgb(90, 23, 214);
+    width: 100%;
+    margin: 0;
+    height: 7vh;
+    padding: 0;
+}
+.menu{
+    list-style: none;
+    width: 100%;
+    margin-left:  60px;
+    margin-right:  0;
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+
+}
+.header img{
+    width: 80px;
+    height: 7vh;
+}
+li{
+    color: white
+}
+.landing-page{
+    padding:  76px;
+    width: 100%;
+    background: url("../pictures/index1.jpg");
+    background-size: cover;
+    color: blanchedalmond;
+    text-align: center;
+    
+}
+.about{
+    font-size: 30px;
+    text-align: center;
+    width: 766px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.about a {
+    color: blueviolet
+}
+.footer p {
+    font-family:  cursive;
+}
+.footer {
+    color: white;
+    background-color: rgb(8, 19, 70);
+    width:  1080px;
+    text-align-last:  center;
+}
+.footer table{
+    margin: 0 auto;
+}
